@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Shakespeare />
+    <TodoAPI />
   </div>
 </template>
 
 <script>
-import Shakespeare from '@/components/Shakespeare';
+import TodoAPI from '@/components/TodoAPI';
 
 export default {
   components: {
-    Shakespeare,
+    TodoAPI,
   },
 };
 </script>
